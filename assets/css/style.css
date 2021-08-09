@@ -1,0 +1,257 @@
+body {
+    background-color: rgb(219, 219, 219);
+    margin: 0;
+    padding: 0;
+}
+
+/* Link */
+a, a:hover {
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+/* Rows */
+
+.row {
+    width: 100%;
+}
+
+/* Navbar styling */
+
+.navbar {
+    background-color: lightslategrey;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navinfo {
+    color: rgb(219, 219, 219);
+    text-align: center;
+    height: 100%;
+    padding: 25px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navinfo:hover {
+    background-color: #efeee7;
+    color: lightslategray;
+}
+
+#name {
+    padding-left: 30px;
+}
+
+/* Content */
+.container {
+    margin: auto;
+    max-width: 100vw;
+    padding: 50px;
+}
+
+/* h stylings*/ 
+
+h1 {
+    color: rgb(219, 219, 219);
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+    color:rgb(219, 219, 219);
+}
+
+h3 {
+    font-family: serif;
+    font-size: 30px;
+    background-color: lightslategrey;
+    color: rgb(219, 219, 219);
+    padding: 10px;
+    margin: 0;
+    width: fit-content;
+    text-align: left;
+}
+
+h4 {
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: lightslategrey;
+    border-radius: 5px;
+    color: rgb(219, 219, 219);
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+    text-align: left;
+    box-shadow: 5px 5px grey;
+}
+
+/* Sectioned styling */
+.sectioned {
+    margin: 50px 0px 50px 0px;
+}
+
+/* Mybio styling */
+
+
+#bio h2, #work h2, #contact h2 {
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding: 15px;
+    width: fit-content;
+    box-shadow: 5px 5px grey;
+}
+
+#bio p {
+    margin: 25px;
+    padding-left: 5%;
+    font-weight: 600;
+    color: lightslategray;
+    font-size: 20px;
+}
+
+.selfie img {
+    border-style: solid;
+    border-color: lightslategrey;
+    border-width: 7px;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 5px 5px grey;
+}
+
+.selfie {
+    margin: 0;
+    padding: 0;
+}
+
+/* Work Styling */
+
+#primary {
+    border-style: solid;
+    border-color: lightslategrey;
+    border-width: 7px;
+    border-radius: 5px;
+    padding: 0;
+    height: auto;
+    position: relative;
+}
+
+#secondary {
+    border-style: solid;
+    border-color: lightslategrey;
+    border-width: 7px;
+    border-radius: 5px;
+    padding: 0;
+    height: auto;
+    position: relative;
+}
+
+#subwork, #mainwork {
+    padding: 0;
+    margin: 20px auto;
+}
+
+/* Images */
+
+.images {
+    width: 100%;
+    height: auto;
+}
+
+#mainwork {
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.overlay:hover  {
+    display: flex;
+    background-color: rgb(0, 0, 0, .75);
+}
+
+.overlayp, .overlayh3 {
+    background-color: rgb(255, 255, 255, 0);
+    color:rgb(219, 219, 219, 0);
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.overlayp {
+    font-size: 25px;
+}
+
+.overlay:hover .overlayp, .overlay:hover .overlayh3 {
+    color:rgb(219, 219, 219);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacthead {
+    margin-bottom: 20px;
+}
+
+.evensteven {
+    margin: auto;
+    width: fit-content;
+}
+
+.cinfo {
+    margin: 0px 10px;
+    width: auto;
+}
+
+.email {
+    color: rgb(219, 219, 219);
+    text-decoration: solid;
+}
+
+/* @media screen and (max-height: 2000px) {
+    #primary {
+        height: 600px;
+    }
+    #secondary {
+        height: 425px;
+        background-size: 100% auto;
+    }
+}
+
+@media screen and (max-height: 1500px) {
+    #primary {
+        height: 500px;
+    }
+    #secondary {
+        height: 350px;
+        background-size: auto 100%;
+    }
+} */

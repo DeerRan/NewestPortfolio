@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="navbar row justify-content-end">
+        <div id="name" class="col">
+            <h1>My Portfolio</h1>
+        </div>
+
+        <a class="navinfo link col-2" href="#bio">About Me</a>
+        <a class="navinfo link col-2" href="#work">My Work</a>
+        <a class="navinfo link col-2" href="#contact">Contact Me</a>
+    </div>
+
+    <div class="container">
+        <div id="aboutme" class="row sectioned">
+            <div id='bio' class="col-8">
+                <div>
+                    <h2>Who I am?</h2>
+                    <p>
+                        I'm Darren! I am a college student who want to make a living out of coding. I am 20 years old at the time I wrote this and my hobbies include anything that lets me hang out with friends or meet new people. In my personal time I enjoy
+                        playing video-games or spending time with friends or my significant other. I am friendly and easy to get along with and can adapt well in new environments!
+                    </p>
+                </div>
+                <div>
+                    <h2>Why did I make this page?</h2>
+                    <p>
+                        This page will hopefully showcase my future projects that I will work on or create in order to give employers an idea of whether or not I have the skills they are looking for. Currently I am not very far into my education for coding,
+                        as a result this page will probably be very lacking in content for now.
+                    </p>
+                </div>
+            </div>
+
+            <section class="selfie col-3">
+                <img src="./assets/images/darrenimg.png" alt="A picture of Darren Scott smiling in a suit. Only the shoulder-up is shown." width=225px height=300px />
+            </section>
+        </div>
+
+        <div id='work' class="row sectioned">
+            <div>
+                <h2>My Work</h2>
+            </div>
+
+            <a id="mainwork" class="col-10" href='https://github.com/atn362/crud_project/tree/Darren/branch' target='_blank'>
+                <div id="primary">
+                    <img class="images" src="/assets/images/TravelBlogDemo.gif">
+
+                    <div class="overlay">
+                        <h3 class="overlayh3">Travel Blog</h3>
+                        <p class="overlayp">A team project Travel Blog. I worked on the front-end</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="col-8 col-lg-5" id="subwork" href='https://deerran.github.io/WeatherDashboard/' target='_blank'>
+                <div id="secondary">
+                    <img class="images" src="/assets/images/weatherdash.png">
+
+                    <div class="overlay">
+                        <h3 class="overlayh3">WeatherDashboard</h3>
+                        <p class="overlayp">A weather forecasting webpage</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="col-8 col-lg-5" id="subwork" href='https://old-prego.github.io/pet-adoption/' target='_blank'>
+                <div id="secondary">
+                    <img class="images" src="/assets/images/findpet.png">
+                    
+                    <div class="overlay">
+                        <h3 class="overlayh3">Petfinder</h3>
+                        <p class="overlayp">A website for finding pets</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="col-8 col-lg-5" id="subwork" href='https://github.com/DeerRan/E-commerceBackend' target='_blank'>
+                <div id="secondary">                    
+                    <img class="images" src="/assets/images/commercebackend.png">
+
+                    <div class="overlay">
+                        <h3 class="overlayh3">E-commerce Backend</h3>
+                        <p class="overlayp">A backend that demonstrates technologies I learned</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a class="col-8 col-lg-5" id="subwork" href='https://github.com/DeerRan/TechBlog' target='_blank'>
+                <div id="secondary">                    
+                    <img class="images" src="assets/images/techblog.png">
+
+                    <div class="overlay">
+                        <h3 class="overlayh3">Techblog</h3>
+                        <p class="overlayp">A functioning Techblog that demonstrates technologies I learned</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <div id='contact' class="row sectioned">
+            <div class="contacthead">
+                <h2>Contact</h2>
+            </div>
+
+            <div class="evensteven row">
+                <div class='cinfo col-3'>
+                    <h4><a class="email" href="mailto:Darren.Scott.0905@gmail.com">Darren.Scott.0905@gmail.com</a></h4>
+                </div>
+                <div class='cinfo col-3'>
+                    <h4>612-834-1808</h4>
+                </div>
+                <div class='cinfo col-3'>
+                    <a href='https://github.com/DeerRan?tab=repositories' target='_blank'>
+                        <h4>GitHub</h4>
+                    </a>
+                </div>
+                <div class='cinfo col-3'>
+                    <a href='https://www.linkedin.com/in/DeerRan' target='_blank'>
+                        <h4>LinkedIn</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- Scripts for Bootstrap -->
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
